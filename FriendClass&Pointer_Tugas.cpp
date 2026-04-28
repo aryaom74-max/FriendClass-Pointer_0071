@@ -75,4 +75,8 @@ int main() {
     ObjectLayang.tampilkanHasil();
     ObjectBelah.tampilkanHasil();
     
-    
+    ObjectBelah.infoSpesial(ObjectLayang);
+
+    return 0;
+}
+
