@@ -21,3 +21,7 @@ public:
     double hitungLuas() {
         return 0.5 * d1 * d2;
     }
+
+    double hitungKeliling() {
+        return 2 * (sisiA + sisiB);
+    }
