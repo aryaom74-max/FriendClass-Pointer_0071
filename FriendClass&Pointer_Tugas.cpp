@@ -54,3 +54,8 @@ public:
         return 4 * sisi;
     }
 
+    void infoSpesial(LayangLayang &l) {
+        cout << "(Info Friend: Belah Ketupat tahu sisi atas Layang-Layang adalah " << l.sisiA << ")" << endl;
+    }
+
+    
