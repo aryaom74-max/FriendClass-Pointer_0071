@@ -8,3 +8,12 @@ class mahasiswa{
     }
 };
 
+int main (){
+    mahasiswa mhs{1}; // object mhs
+    mhs.showNim(); //Member acces operator
+
+    mahasiswa &refmhs = mhs; //Pointer Refrence refmhs
+    refmhs.nim = 2; //Member acces operator
+    mhs.showNim(); 
+
+    
